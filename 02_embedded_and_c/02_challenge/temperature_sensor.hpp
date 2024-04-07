@@ -4,7 +4,7 @@
 
 class TemperatureSensor {
 public:
-    virtual temperature::kelvin road() const = 0;
+    virtual temperature::kelvin read() const = 0;
     virtual ~TemperatureSensor() = default;
 private:
 };

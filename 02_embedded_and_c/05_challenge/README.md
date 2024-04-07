@@ -21,3 +21,11 @@ Cヘッダーファイル内で `double_array` 宣言をラップして、C++プ
 ## タスク2
 
 C++プログラムの `main.cpp` で `double_array` を呼び出し、`std::array` に含まれるデータを引数で渡してください。
+
+## 実行方法
+```bash
+g++ -c main.cpp -o main.o
+gcc -c double_array.c -o double_array.o
+g++ main.o double_array.o -o main
+./main
+```

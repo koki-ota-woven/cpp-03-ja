@@ -6,8 +6,8 @@ extern "C" {
 class LedController {
 public:
     void initialize();
-    void on();
-    void off();
+    void turnOn();
+    void turnOff();
     bool getState() const;
 };
 

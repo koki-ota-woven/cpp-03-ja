@@ -5,9 +5,9 @@
 int main() {
     LedController led;
     led.initialize();
-    led.on();
+    led.turnOn();
     std::cout << "LED is " << (led.getState() ? "ON" : "OFF") << std::endl;
-    led.off();
+    led.turnOff();
     std::cout << "LED is " << (led.getState() ? "ON" : "OFF") << std::endl;
 
     return 0;

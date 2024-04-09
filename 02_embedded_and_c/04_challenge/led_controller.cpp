@@ -5,11 +5,11 @@ void LedController::initialize() {
     led_init();
 }
 
-void LedController::on() {
+void LedController::turnOn() {
     led_on();
 }
 
-void LedController::off() {
+void LedController::turnOff() {
     led_off();
 }
 

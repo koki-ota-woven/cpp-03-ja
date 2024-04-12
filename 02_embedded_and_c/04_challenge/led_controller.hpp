@@ -1,7 +1,5 @@
 #pragma once
-extern "C" {
 #include "led_controller.h"
-}
 
 class LedController {
 public:
@@ -10,4 +8,3 @@ public:
     void turnOff();
     bool getState() const;
 };
-
